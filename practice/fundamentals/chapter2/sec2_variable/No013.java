@@ -11,7 +11,14 @@ public class No013 {
 		String b = "リンゴ";
 		System.out.println("食べ物" + b);
 
-		int c = "毎月の給与"
+		int c = 200000;
+		System.out.println(c + "円");
+
+		double d = 46000000d;
+		System.out.println("世界の人口" + d + "人");
+
+
+
 
 	}
 
