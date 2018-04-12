@@ -17,7 +17,7 @@ class RefTest{
 public class Sumple3_8 {
 	public static void main(String[] args) {
 		int num =20; //基本データ型
-		int[] array = {20,40}; //オブジェクト参照型
+		int[] array = {20,40}; //オブジェクト参照型なので原本を
 
 		RefTest obj = new RefTest();// インスタンス化
 

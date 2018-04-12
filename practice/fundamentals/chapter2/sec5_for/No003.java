@@ -4,8 +4,9 @@ package fundamentals.chapter2.sec5_for;
  */
 public class No003 {
 	public static void main(String[] args) {
-		for(int x = 10; x <=100; x += 10); {
-			System.out.print(x);
+
+		for(int x = 1; x <=10; x ++) {
+			System.out.println(x*10);
 		}
 	}
 
