@@ -4,8 +4,11 @@ package fundamentals.chapter2.sec5_for;
  */
 public class No006 {
 	public static void main(String[] args) {
+		int x = 1;
+
 		for(int i = 1; i <=8; i++) {
-			System.out.println(2);
+			x*=2;
+			System.out.println(x);
 		}
 	}
 
