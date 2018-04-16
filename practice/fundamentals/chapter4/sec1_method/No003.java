@@ -5,4 +5,11 @@ package fundamentals.chapter4.sec1_method;
  */
 public class No003 {
 
+	public static void main(String[] args) {
+		year(2018,04,16);
+	}
+
+	public static void year(int x,int y,int z) {
+		System.out.println(x + "年" + y + "月" + z +"日");
+	}
 }

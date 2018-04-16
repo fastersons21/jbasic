@@ -6,5 +6,13 @@ package fundamentals.chapter4.sec1_method;
  * ※うるう年は、西暦が400で割り切れる年、または100で割り切れず、4で割り切れる年です。
  */
 public class No005 {
+	public static void main(String[] args) {
+		year(2018);
+	}
+	public static void year(int n) {
+		boolean getYear;
+
+		getYear = ()
+	}
 
 }
