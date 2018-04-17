@@ -1,5 +1,7 @@
 package chapter2;
 
+import chapter4.Staff;
+
 public class Sample2_11 {
 	public static void main(String[] args) {
 		Staff s =new Staff();//インスタンス化

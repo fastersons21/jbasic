@@ -1,4 +1,4 @@
-package chapter2;
+package other;
 
 //拡張for文
 

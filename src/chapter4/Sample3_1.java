@@ -1,4 +1,4 @@
-package chapter2;
+package chapter4;
 
 public class Sample3_1 {
 	int x = 20;

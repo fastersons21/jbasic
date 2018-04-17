@@ -1,4 +1,4 @@
-package chapter2; //オーバーロード
+package chapter4; //オーバーロード
 class OLTest{
 	void metTest(int a , int b) { //メソッドテスト
 		System.out.println("metTest(int a,int b) =" + a + "&" + b);

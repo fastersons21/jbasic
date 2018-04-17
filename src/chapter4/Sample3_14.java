@@ -1,4 +1,4 @@
-package chapter2;
+package chapter4;
 
 class StaffSsp{
 	String name = "名無し";

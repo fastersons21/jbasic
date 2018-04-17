@@ -1,4 +1,4 @@
-package chapter2;
+package chapter4;
 
 class StaticCodeExample{
 	static int counter = 0;// static変数

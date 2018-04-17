@@ -1,4 +1,4 @@
-package chapter2;
+package other;
 
 public class Ex006_Enum {
 	//列挙型

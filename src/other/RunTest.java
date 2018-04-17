@@ -1,4 +1,4 @@
-package chapter2;
+package other;
 
 //走行テスト
 public class RunTest {

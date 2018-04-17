@@ -1,4 +1,4 @@
-package chapter2;
+package chapter4;
 class FinTest{
 	final int a = 15; //final指定のインスタンス変数です。
 	static final int b =25; //final指定のstatic変数です

@@ -1,4 +1,4 @@
-package chapter2; //オーバーライド
+package chapter4; //オーバーライド
 
 class StaffOv{//スーパークラス
 	String name = "名無し";

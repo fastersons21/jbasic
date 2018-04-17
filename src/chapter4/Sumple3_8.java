@@ -1,4 +1,4 @@
-package chapter2;
+package chapter4;
 
 class RefTest{
 	void metTest1(int num) {

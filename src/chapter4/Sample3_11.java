@@ -1,4 +1,4 @@
-package chapter2; //継承
+package chapter4; //継承
 
 class Staff{
 	String name ="名無し";

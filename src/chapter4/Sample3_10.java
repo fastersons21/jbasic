@@ -1,4 +1,4 @@
-package chapter2;
+package chapter4;
 class Trainer{
 	String name; //コンストラクタの定義 インスタンス変数
 	Trainer(){ // コンストラクタ
