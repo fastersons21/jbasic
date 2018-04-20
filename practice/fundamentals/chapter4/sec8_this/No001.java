@@ -11,7 +11,7 @@ public class No001 {
 	}
 	
 	public void setName(String name) {
-		
+		this.name = "山田";
 	}
 	
 	public String getName() {

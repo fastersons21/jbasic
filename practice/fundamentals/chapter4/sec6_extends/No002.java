@@ -6,18 +6,29 @@ package fundamentals.chapter4.sec6_extends;
  */
 public class No002 {
 	public static void main(String[] args) {
-		
+		Cat animal = new Cat();
+		Animal animal2 = new Animal();
+		System.out.println(animal2.getName() + "「" + animal.maw + "」");
 	}
-}
+}//p109継承
 
-class Animal {
-	String name;
-	
+class Animal {//スーパークラス
+	String name = "ニャース";
+
 	String getName() {
 		return this.name;
 	}
-	
+
 	void setName(String name) {
-		this.name = name;
+		this.name ="";
+		System.out.println(this.name);
 	}
+}
+
+class Cat extends Animal {//サブクラス class + サブクラス名 + extends + スーパークラス名
+	String maw;
+	Cat() {
+		maw = "ニャー";
+	}
+
 }

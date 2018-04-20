@@ -9,3 +9,6 @@ public class No003 {
 		
 	}
 }
+class Dog extends Animal {
+	
+}

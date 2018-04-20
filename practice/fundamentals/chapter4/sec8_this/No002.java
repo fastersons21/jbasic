@@ -11,9 +11,9 @@ public class No002 {
 
 class Book {
 	Book() {
-
+		this("炎炎ノ消防隊");//thisをつかって引数ありコンストラクタを呼び出す
 	}
-	Book(String title) {
+	Book(String title) {//thisの引数を指定したのでString titleに代入されている
 		System.out.println(title);
 	}
 }
