@@ -6,5 +6,8 @@ package fundamentals.chapter5.sec2_arraylist;
  * https://docs.oracle.com/javase/jp/8/docs/api/index.html
  */
 public class No004 {
+	public static void main(String[] args) {
+		ArrayList<Integer>
+	}
 
 }

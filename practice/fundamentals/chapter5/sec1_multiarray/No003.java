@@ -6,12 +6,16 @@ package fundamentals.chapter5.sec1_multiarray;
  */
 public class No003 {
 	public static void main(String[] args) {
-		int array [][][] = {};
-
-		int array1 = array[1][1][1];
-//		for(int i = 0; array.length; i++) {
-//			for(int j= 0; j < array[i].length; j++) {
-				System.out.println(array1);
+		int [][][] array = new int[2][2][4];
+		
+		
+		for(int i = 0; array.length; i++) {
+		}
+			for(int j= 0; j < array[i].length; j++) {
+			}				
+				for(int k= 0; k < array[j].length; k++) {
+				}	
+				System.out.println(array);
 
 	}
 
