@@ -5,14 +5,24 @@ package fundamentals.chapter7.sec1_trycatch;
  */
 public class No002 {
 	public static void main(String[] args) {
+
 		disp(1);
 		disp(2);
 		disp(3);
+
+
 	}
-	
+
 	private static void disp(int no) {
 		int n[] = {1,2,3};
-		
-		System.out.println(n[no]);
+		try {
+			System.out.println(n[no]);
+		}
+		catch(ArrayIndexOutOfBoundsException ae) {
+			System.out.println("入力値が不正です。" + ae);
+			
+		}
+
+	    
 	}
 }

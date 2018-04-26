@@ -6,7 +6,7 @@ package fundamentals.chapter5.sec1_multiarray;
  */
 public class No003 {
 	public static void main(String[] args) {
-		int [][][] array = new int[2][2][4];
+		int [][][] array = new int[2][2][2];
 		
 		
 		for(int i = 0; array.length; i++) {
