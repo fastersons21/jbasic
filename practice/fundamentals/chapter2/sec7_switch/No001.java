@@ -7,7 +7,7 @@ public class No001 {
 	public static void main(String[] args) {
 		int score = 60;
 		switch(score) {
-		case score >= 80:
+		case score >= 80;
 			
 		}
 	}//やらなくていい

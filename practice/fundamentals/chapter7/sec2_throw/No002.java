@@ -8,11 +8,17 @@ public class No002 {
 	public static void main(String[] args) {
 		show(3);
 	}
-	
+
 	private static void show(int no) {
-		
-		int[] array = {100,200,300};
-		
-		System.out.println(array[no]);
+		try {
+
+			int[] array = {100,200,300};
+
+			System.out.println(array[no]);
+
+		}catch(ArrayIndexOutOfBoundsException aie) {
+			System.out.println("<入力された引数>は範囲外です。0~2の値を入れてください。" + aie);
+		}
+
 	}
 }
